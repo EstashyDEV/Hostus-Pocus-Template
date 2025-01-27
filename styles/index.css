@@ -46,29 +46,30 @@ body {
     padding: 0 50px;
 }
 
-@media (max-width: 1200px ) {
+@media (max-width: 1200px) {
     .container {
         padding: 0 60px;
     }
 
 }
 
-@media (max-width: 991px ) {
+@media (max-width: 991px) {
     .container {
         padding: 0 40px;
     }
+
     .content-container {
         padding: 0;
     }
 }
 
-@media (max-width: 768px ) {
+@media (max-width: 768px) {
     .container {
         padding: 0 20px;
     }
 }
 
-@media (max-width: 576px ) {
+@media (max-width: 576px) {
     .container {
         padding: 0 16px;
     }
@@ -107,26 +108,26 @@ main {
 }
 
 .header__nav-list {
-   display: flex;
-   justify-content: end;
-   gap: 61px;
-   font-size: 13px;
-   font-weight: 300;
-   color: #414141;
-   padding-top: 18px;
+    display: flex;
+    justify-content: end;
+    gap: 61px;
+    font-size: 13px;
+    font-weight: 300;
+    color: #414141;
+    padding-top: 18px;
 }
 
 .hero__btn {
-        cursor: pointer;
-        border: none;
-        background-color: var(--button-color);
-        border-radius: 4px;
-        padding: 9px 20px 8px 20px;
-        transition: box-shadow;
-        transition-duration: 0.5s;
-        gap: 5px;
-        font-size: 13px;
-        display: flex;
+    cursor: pointer;
+    border: none;
+    background-color: var(--button-color);
+    border-radius: 4px;
+    padding: 9px 20px 8px 20px;
+    transition: box-shadow;
+    transition-duration: 0.5s;
+    gap: 5px;
+    font-size: 13px;
+    display: flex;
 }
 
 .hero__btn:hover {
@@ -184,4 +185,98 @@ main {
 
 .section__first-btn:hover {
     box-shadow: 0px 0px 12px -2px rgba(0, 0, 0, 0.5);
+}
+
+
+.section_two-ul-first {
+    display: flex;
+    flex-direction: column;
+    padding-top: 235px;
+    gap: 10px;
+    padding-left: 100px;
+}
+
+.section_two-ul-first-text {
+    color: #C5C5C5;
+}
+
+.section__two-img {
+    display: flex;
+    padding-left: 810px;
+    height: 400;
+}
+
+.section_two-ul-two {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 870px;
+    padding-top: 30px;
+}
+
+.section_two-ul-two-text {
+    color: #C5C5C5;
+}
+
+.section__two-ul-three-text {
+    color: #C5C5C5;
+}
+
+.section__ul-three {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 100px;
+}
+
+.section__two-ul-four {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 870px;
+}
+
+.section__two-ul-four-text {
+    color: #C5C5C5;
+}
+
+.section__three {
+    background-image: url(https://static.tildacdn.com/tild6135-6265-4262-b035-373866656635/imgix-391808-unsplas.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section__three-ul-h3 {
+    color: #FFFFFF;
+}
+
+.section__three-ul-h4 {
+    color: var(--button-color);
+}
+
+.section__three-ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-top: 100px;
+}
+
+.section__three-btn {
+    cursor: pointer;
+    border: none;
+    background-color: var(--button-color);
+    border-radius: 4px;
+    padding: 12px 20px 13px 20px;
+    transition: box-shadow background-color;
+    transition-duration: 0.5s;
+    gap: 5px;
+    font-size: 13px;
+    display: flex;
+}
+
+.section__three-btn:hover {
+    box-shadow: 0px 0px 12px -2px rgba(0, 0, 0, 0.5);
+    background-color: #800000;
 }
